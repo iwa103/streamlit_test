@@ -6,7 +6,7 @@ import pandas as pd
 URL = "https://www.jma.go.jp/bosai/forecast/data/forecast/380000.json"
 
 # Streamlitアプリのタイトル
-st.title('3-Day Rain Probability Forecast for Saitama Prefecture')
+st.title('3-Day Rain Probability Forecast for 愛媛 Prefecture')
 
 # データを取得して表示する関数
 def get_rain_forecast():
